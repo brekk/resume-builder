@@ -1,0 +1,38 @@
+{
+  "name": "jobs",
+  "version": "0.0.0",
+  "description": "jerbs",
+  "exports": "./index.js",
+  "type": "module",
+  "repository": "https://github.com/brekk/jobs",
+  "author": "brekk",
+  "license": "ISC",
+  "private": true,
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "resolutions": {
+    "electron": "^11.0.1"
+  },
+  "dependencies": {
+    "@react-pdf/renderer": "^2.0.15",
+    "envtrace": "^0.0.2",
+    "get-stdin": "^9.0.0",
+    "ramda": "^0.27.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "xtrace": "^0.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@mdx-js/loader": "^1.6.22",
+    "babel-loader": "^8.2.2",
+    "electron-pdf": "^10.0.2",
+    "eslint": "^7.29.0",
+    "nps": "^5.10.0",
+    "svgexport": "^0.4.2",
+    "webpack": "^5.41.1"
+  }
+}
