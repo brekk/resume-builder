@@ -26,8 +26,12 @@ export const renderWithReact = async mdxCode => {
 
   const element = fn(React, ...Object.values(scope));
   const components = {
+    /* eslint-disable react/display-name */
+    /* eslint-disable react/prop-types */
     h1: ({ children }) =>
       React.createElement("h1", { style: { color: "tomato" } }, children),
+    /* eslint-enable react/display-name */
+    /* eslint-enable react/prop-types */
   };
 
   const elementWithProvider = React.createElement(

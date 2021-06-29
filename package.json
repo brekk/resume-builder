@@ -31,6 +31,7 @@
     "babel-loader": "^8.2.2",
     "electron-pdf": "^10.0.2",
     "eslint": "^7.29.0",
+    "eslint-plugin-react": "^7.24.0",
     "nps": "^5.10.0",
     "svgexport": "^0.4.2",
     "webpack": "^5.41.1"

@@ -1,5 +1,8 @@
 module.exports = {
   module: {
-    rules: [{ test: /\.mdx?$/, use: ["babel-loader", "@mdx-js/loader"] }],
+    rules: [
+      { test: /\.js?$/, use: ["babel-loader"], exclude: /node_modules/ },
+      { test: /\.mdx?$/, use: ["babel-loader", "@mdx-js/loader"] },
+    ],
   },
 };

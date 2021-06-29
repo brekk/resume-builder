@@ -4,7 +4,7 @@ import { nth, pipe, andThen } from "ramda";
 import { envtrace } from "envtrace";
 // import getStdin from "get-stdin";
 
-import { renderWithReact as render } from "./renderer.js";
+import { renderWithReact as render } from "./mdx-renderer.js";
 
 const log = envtrace("runner");
 const local = x => path.resolve(process.cwd(), x);
