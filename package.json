@@ -29,6 +29,7 @@
     "@babel/preset-react": "^7.14.5",
     "@mdx-js/loader": "^1.6.22",
     "babel-loader": "^8.2.2",
+    "dirname-filename-esm": "^1.1.1",
     "electron-pdf": "^10.0.2",
     "eslint": "^7.29.0",
     "eslint-plugin-react": "^7.24.0",
